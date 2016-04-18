@@ -11,7 +11,6 @@ public class WikiWelcomeController {
 	
 	@RequestMapping("/")
 	public String welcome(){
-		
 		return "welcome";	
 		
 	}
