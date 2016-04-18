@@ -12,7 +12,6 @@ public class WikiWelcomeController {
 	@RequestMapping("/")
 	public String welcome(){
 		
-		System.out.println("HELLO MADHAN"); 
 		return "welcome";	
 		
 	}
